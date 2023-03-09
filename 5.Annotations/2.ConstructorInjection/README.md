@@ -4,5 +4,5 @@
 4.scan 대상인 HappyFortuneService는 @component 사용    
 5.주입 대상인 constructor에는 @autowired 사용   
 6.TennisCoach 클래스에 @component로 config file에 xml 추가 필요 없어짐  
-
+7.As of Spring Framework 4.3, an @Autowired annotation on such a constructor is no longer necessary if the target bean only defines one constructor to begin with.  
 
