@@ -1,7 +1,7 @@
 1.CricketCoach 클래스가 존재하고 private FortuneService가 존재함  
 2.setFortuneService라는 이름의 setter 메소드를 생성하고 arg로 FortuneService 받음  
 3.받은 FortuneService를 private FortuneService에 할당함  
-4.applicationContext.xml에서 property 속성을 이용해 dependency injection  
+4.applicationContext.xml에서 property 속성 앞 set을 붙인 메소드명에 dependency injection  
 5.config file에서 property 태그의 name은 setName으로 바뀌어서 사용됨  
 6.SetterDemoApp.java를 새로 만들어 main에 접근  
   
